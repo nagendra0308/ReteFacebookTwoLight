@@ -64,7 +64,7 @@ void reconnect() {
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
        digitalWrite(BUILTIN_LED, LOW);
-      client.subscribe("nagendrachaudhary2016@gmail.com/nagraj"); 
+      client.subscribe("nagendrachaudhary2016@gmail.com/******"); 
     } else {
      
       // Wait 5 seconds before retrying
